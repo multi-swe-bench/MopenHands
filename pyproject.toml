@@ -91,7 +91,7 @@ llama-index-embeddings-voyageai = "*"
 [tool.poetry.group.dev.dependencies]
 ruff = "0.9.7"
 mypy = "1.15.0"
-pre-commit = "4.1.0"
+pre-commit = "4.2.0"
 build = "*"
 
 [tool.poetry.group.test.dependencies]
