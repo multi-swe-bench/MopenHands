@@ -6,9 +6,9 @@ BASE_SCRIPT="./evaluation/benchmarks/swe_bench/scripts/run_infer.sh"
 MODELS=("aaa" "bbb" "ccc" "ddd" "fff")
 GIT_VERSION="HEAD"
 AGENT_NAME="CodeActAgent"
-EVAL_LIMIT="XXX"
+EVAL_LIMIT="500"
 MAX_ITER="50"
-NUM_WORKERS="XXX"
+NUM_WORKERS="1"
 LANGUAGE="XXX"
 DATASET="XXX"
 
