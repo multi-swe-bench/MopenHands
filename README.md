@@ -83,10 +83,10 @@ default, it is set to 1.
 - `dataset`, the absolute position of the dataset jsonl.
 
 ### Images
-We provide the images for each instance. You can use the following command to download the images directly from [our docker hub site](https://hub.docker.com/u/mswebench) rather than build them locally.
+We provide the images for each instance. You can use the following command to download the images directly from [our docker hub site](https://hub.docker.com/repositories/mopenhands0) rather than build them locally.
 
 ## 📊 Evaluation
-after running the agent, all the predicted patches will be save in `evaluation/evaluation_outputs` directory, named as `output.jsonl`. You can extract the `git_patch` of each instance and then you can evaluate in the [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) repo
+After running the agent, all the predicted patches will be save in `evaluation/evaluation_outputs` directory, named as `output.jsonl`. You can extract the `git_patch` of each instance and then you can evaluate in the [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) repo
 
 ### Run Evaluation
 
@@ -125,11 +125,3 @@ If you find our Multi-SWE-bench and MopenHands useful for your research and appl
 ## 🏢 About [ByteDance Seed Team](https://team.doubao.com/)
 
 Founded in 2023, ByteDance Seed Team is dedicated to crafting the industry's most advanced AI foundation models. The team aspires to become a world-class research team and make significant contributions to the advancement of science and society.
-
-
-
-
-
-
-
-
