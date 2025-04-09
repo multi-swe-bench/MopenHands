@@ -19,8 +19,6 @@
 
 ![seed logo](https://github.com/user-attachments/assets/c42e675e-497c-4508-8bb9-093ad4d1f216)
 
-<!-- 注释：以上为Seed官方信息，可直接复制使用，请注意导入"Seed WeChat"（第12行）、"Seed logo"(第20行)图片替换 -->
-
 
 ## 🚀 Mopenhands: Multi-SWE-Bench Infer with OpenHands
 <p align="center">
@@ -41,9 +39,7 @@
 
 We have modified the original [**Openhands**](https://github.com/All-Hands-AI/OpenHands) (0.25.0 version) compatible with [**Multi-SWE-Bench**](https://github.com/multi-swe-bench/multi-swe-bench)! MopenHands can be used to evaluate the performance of LLMs across 7 languages(c++, c, java, go, rust, typescript, javascript) in the [**Multi-SWE-Bench** dataset](https://huggingface.co/datasets/bytedance-research/Multi-SWE-Bench).
 
-<!-- 注释：以上为项目基础信息，以项目COMET举例，Comet一级标题（第25行）、徽章Comet名字（第28、30、32、34行）记得替换，徽章可按需使用
-请注意，徽章可根据具体项目自定义，如技术成果落地页、技术成果报告/Paper、Hugging Face、项目微信交流群、License、打榜榜单等，更换名字和链接即可；
-专属微信群出现在两个位置，第34行、第42行，可以联系EB同学创建 -->
+
 ## To Start
 ### 1. Environment Preparing
 ```bash
@@ -113,14 +109,17 @@ python -m multi_swe_bench.harness.run_evaluation --config /path/to/your/config.j
 ## 📜 License
 This project is licensed under Apache License 2.0. See the [LICENSE](/LICENSE) flie for details.
 ## 📖 Citation
-If you find XXX useful for your research and applications, feel free to give us a star ⭐ or cite us using:
+If you find our Multi-SWE-bench and MopenHands useful for your research and applications, feel free to give us a star ⭐ or cite us using:
 
 ```bibtex
-@article{zan2024swe,
-  title={Swe-bench-java: A github issue resolving benchmark for java},
-  author={Zan, Daoguang and Huang, Zhirong and Yu, Ailun and Lin, Shaoxin and Shi, Yifan and Liu, Wei and Chen, Dong and Qi, Zongshuai and Yu, Hao and Yu, Lei and others},
-  journal={arXiv preprint arXiv:2408.14354},
-  year={2024}
+@misc{zan2025multiswebench,
+      title={Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving}, 
+      author={Daoguang Zan and Zhirong Huang and Wei Liu and Hanwu Chen and Linhao Zhang and Shulin Xin and Lu Chen and Qi Liu and Xiaojian Zhong and Aoyan Li and Siyao Liu and Yongsheng Xiao and Liangqiang Chen and Yuyu Zhang and Jing Su and Tianyu Liu and Rui Long and Kai Shen and Liang Xiang},
+      year={2025},
+      eprint={2504.02605},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2504.02605}, 
 }
 ```
 ## 🏢 About [ByteDance Seed Team](https://team.doubao.com/)
